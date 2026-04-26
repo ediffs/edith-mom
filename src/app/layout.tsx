@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
+import Fih from "@/components/fih";
 
 const atkynsonMono = localFont({
   src: "../../public/AtkynsonMonoNerdFontMono-Regular.otf",
@@ -32,6 +33,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <main>
           <Navbar />
+          <Fih></Fih>
         </main>
         {children}
       </body>

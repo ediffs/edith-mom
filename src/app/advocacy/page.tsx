@@ -3,16 +3,37 @@ import Image from "next/image";
 
 export default function Advocacy() {
   return (
-    <div className="container mt-2">
-      Advocacy
-      <Image
-        className="dark:invert"
-        src="/fih.png"
-        alt="A fish."
-        width={200}
-        height={20}
-        priority
-      />
+    <div className="flex flex-col flex-1 items-center font-sans bg-linear-to-r from-indigo-400 via-purple-400 to-pink-400">
+      <h1 className="max-w-md text-3xl font-semibold leading-10 tracking-tight text-[#f4ecd6] dark:text-[#f4ecd6]">
+        Director of Advocacy
+      </h1>
+      <p className="max-w-md text-lg leading-8 text-[#f4ecd6] dark:text-[#f4ecd6]">
+        In case you're not aware I am the 2026-2027 Director of Advocacy for the
+        CSSA.
+      </p>
+      <p className="max-w-md text-lg leading-8 text-[#f4ecd6] dark:text-[#f4ecd6]">
+        One of my initiatives from when I was campaigning was to increase
+        transparency when it comes to the Advocacy role. I will be updating this
+        page periodically throughout the year to track my own progress and to
+        give this role the transparency it requires.
+      </p>
+      <ul className="list-none md:list-disc max-w-md text-lg leading-8 text-[#f4ecd6] dark:text-[#f4ecd6]">
+        <li>
+          Be an active voice for all students when communicating to the CS
+          department.
+        </li>
+        <li>
+          Launch frequent, small initiatives to make sure students are being
+          advocated for.
+        </li>
+        <li>
+          Pick a diverse committee so that all students are well-represented.
+        </li>
+        <li>
+          Run surveys for the student body to track the CSSA's advocacy
+          throughout my term.
+        </li>
+      </ul>
     </div>
   );
 }
