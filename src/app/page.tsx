@@ -9,20 +9,21 @@ export default function Home() {
             About Me
           </h1>
           <p className="max-w-md text-lg leading-8 text-[#f4ecd6] dark:text-[#f4ecd6]">
-            Hi, my name is Edith (she/her) and I'm a Computer Science Honours
+            Hi! My name is Edith (she/her) and I'm a Computer Science Honours
             student with a minor in Mathematics, heading into my third year.
           </p>
           <p className="max-w-md text-lg leading-10 text-[#f4ecd6] dark:text-[#f4ecd6]">
             I'm passionate about video game design, music, and effective
             political advocacy.
           </p>
+          <p className="max-w-md text-lg leading-10 text-[#f4ecd6] dark:text-[#f4ecd6]"></p>
           <h2 className="flex max-w-lg text-2xl font-semibold leading-10 tracking-tight text-[#f4ecd6] dark:text-[#f4ecd6] justify-center">
             A few things you may know me from:
           </h2>
           <ul className="list-inside md:list-disc max-w-2xl text-lg leading-10 text-[#f4ecd6] dark:text-[#f4ecd6]">
             <li>
               I've been a Teaching Assistant for the following courses: (COMP
-              1020 for Winter 2026, COMP 2450 for Summer 2026).
+              1020 during Winter 2026, COMP 2450 during Summer 2026).
             </li>
             <li>
               I am currently the CSSA's Director of Advocacy for the 2026-2027
