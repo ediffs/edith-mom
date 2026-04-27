@@ -28,7 +28,7 @@ export default function Advocacy() {
               department.
             </li>
             <li>
-              Launch frequent, small initiatives to make sure students are being
+              Launch frequent, small initiatives to ensure students are being
               advocated for.
             </li>
             <li>
@@ -36,8 +36,8 @@ export default function Advocacy() {
               well-represented.
             </li>
             <li>
-              Run surveys for the student body to track the CSSA's advocacy
-              throughout my term.{" "}
+              Run surveys for the student body to track our advocacy throughout
+              my term.{" "}
             </li>
           </ul>
         </div>

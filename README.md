@@ -6,9 +6,15 @@ This is my personal website and portfolio, built with [React](https://react.dev/
 
 The project was bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Contributing
+## Working on the Site
 
-First, run the development server:
+First, clone the repository to your machine:
+
+```bash
+git clone https://github.com/ediffs/edith-mom.git
+```
+
+Then run the development server:
 
 ```bash
 npm run dev

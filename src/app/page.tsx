@@ -1,16 +1,17 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center font-sans bg-linear-to-r from-indigo-400 via-pink-500 to-purple-400 ">
-      <main className="flex flex-1 w-full max-w-3xl flex-col py-32 px-16 bg-[#2d2643] dark:bg-[#2d2643] sm:items-start">
+    <div className="flex flex-col flex-1 items-center font-sans bg-linear-to-r from-slate-900 via-blue-900 to-slate-900 ">
+      <main className="flex flex-1 w-full max-w-3xl flex-col py-32 px-16 bg-[#232143] dark:bg-[#232143] sm:items-start">
         <div className="flex flex-col items-center gap-6 sm:items-start sm:text-left">
           <h1 className="flex max-w-lg text-3xl font-semibold leading-10 tracking-tight text-[#f4ecd6] dark:text-[#f4ecd6] justify-center">
             About Me
           </h1>
           <p className="max-w-md text-lg leading-8 text-[#f4ecd6] dark:text-[#f4ecd6]">
             Hi! My name is Edith (she/her) and I'm a Computer Science Honours
-            student with a minor in Mathematics, heading into my third year.
+            student with a minor in Mathematics, heading into my third year at
+            the University of Manitoba.
           </p>
           <p className="max-w-md text-lg leading-10 text-[#f4ecd6] dark:text-[#f4ecd6]">
             I'm passionate about video game design, music, and effective
@@ -37,6 +38,34 @@ export default function Home() {
               I was a Mathematics Tutor for the SSA during the 2025-2026 year.
             </li>
           </ul>
+          <h2 className="flex max-w-lg text-2xl font-semibold leading-10 tracking-tight text-[#f4ecd6] dark:text-[#f4ecd6] justify-center">
+            Contact:
+          </h2>
+          <div className="flex flexbox-container pb-4 md:pb-2 gap-20 justify-between">
+            {" "}
+            {/* fixed w-full top-0 left-0   items-center  */}
+            <Link
+              href="mailto:edith.hohner@umanitoba.ca"
+              target="_blank"
+              className="transform scale-100 hover:scale-105 bg-indigo-950 hover:text-cyan-400 text-[#ff99c9] py-2 px-4 rounded"
+            >
+              Email
+            </Link>
+            <Link
+              href="https://github.com/ediffs"
+              target="_blank"
+              className="transform scale-100 hover:scale-105 bg-indigo-950 hover:text-cyan-400 text-[#ff99c9] py-2 px-4 rounded"
+            >
+              Github
+            </Link>
+            <Link
+              href="https://linkedin.com/in/edith-hohner"
+              target="_blank"
+              className="transform scale-100 hover:scale-105 bg-indigo-950 hover:text-cyan-400 text-[#ff99c9] py-2 px-4 rounded"
+            >
+              LinkedIn
+            </Link>
+          </div>
         </div>
       </main>
     </div>

@@ -1,18 +1,13 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
-import Fih from "@/components/fih";
+import { FihProvider } from "@/components/fihContext";
+import FihBox from "@/components/fihBox";
 
 const atkynsonMono = localFont({
   src: "../../public/AtkynsonMonoNerdFontMono-Regular.otf",
   variable: "--font-atkynson-mono",
-});
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
@@ -32,10 +27,12 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <main>
-          <Navbar />
-          <Fih></Fih>
+          <FihProvider>
+            <Navbar />
+            <FihBox />
+            {children}
+          </FihProvider>
         </main>
-        {children}
       </body>
     </html>
   );
