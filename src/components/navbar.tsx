@@ -39,7 +39,7 @@ export default function Navbar() {
         inputMode="numeric"
         className="w-3xl bg-transparent  text-cyan-400 text-sm border border-[#ff99c9] rounded-md px-2 transition duration-300 ease focus:outline-none focus:border-cyan-400 hover:border-cyan-400 shadow-sm focus:shadow"
         min="0"
-        max="6"
+        max="20"
         value={count}
         onChange={(e) => setCount(Number(e.target.value))}
         id="numFih"
