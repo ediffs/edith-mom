@@ -50,7 +50,7 @@ export default function Navbar() {
           <li key={item.id}>
             <Link
               href={item.href}
-              className="transform scale-100 transition-all duration-200 ease-out hover:scale-105 hover:-translate-y-0.5 bg-indigo-950 hover:text-cyan-400 text-[#ff99c9] py-2 px-4 rounded"
+              className="transform scale-100 hover:scale-105 bg-indigo-950 hover:text-cyan-400 text-[#ff99c9] py-2 px-4 rounded"
             >
               {item.label}
             </Link>
