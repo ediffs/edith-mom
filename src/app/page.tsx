@@ -41,7 +41,7 @@ export default function Home() {
           <h2 className="flex max-w-lg text-2xl font-semibold leading-10 tracking-tight text-[#f4ecd6] dark:text-[#f4ecd6] justify-center">
             Contact:
           </h2>
-          <div className="flex flexbox-container pb-4 md:pb-2 gap-20 justify-between">
+          <div className="flex items-center gap-2">
             {" "}
             <Link
               href="mailto:edith.hohner@umanitoba.ca"
