@@ -99,8 +99,6 @@ export default function Fih() {
 
     // start animation
     animate();
-
-    return () => cancelAnimationFrame(animate); // good thing i like my animations cancelled
   }, [imageIndex]);
 
   if (imageIndex === null) {

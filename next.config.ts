@@ -1,7 +1,12 @@
 import type { NextConfig } from "next";
+/** @type {import('next').NextConfig} */
 
 const nextConfig: NextConfig = {
-  turbopack: {},
+  output: "export",
+  basePath: "/edith-mom",
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
