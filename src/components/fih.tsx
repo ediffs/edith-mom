@@ -12,6 +12,7 @@ const images = [
 
 export default function Fih() {
   const ref = useRef<HTMLDivElement>(null);
+  const posRef = useRef({ x: 0, y: 0 });
 
   // state to store fih position, trigger re-render
   const [position, setPosition] = useState({ x: -100, y: 0 });
@@ -27,14 +28,38 @@ export default function Fih() {
     setImageIndex(Math.floor(Math.random() * images.length));
   }, []);
 
+  // resize logic: recenter all fish when window size changes
+  useEffect(() => {
+    // recalculate the position and recenter the fish
+    const handleResize = () => {
+      const el = ref.current;
+      if (!el) return;
+
+      const rect = el.getBoundingClientRect();
+
+      let { x, y } = posRef.current;
+
+      x = Math.max(0, Math.min(x, window.innerWidth - rect.width));
+      y = Math.max(0, Math.min(y, window.innerHeight - rect.height));
+
+      posRef.current = { x, y };
+      setPosition({ x, y });
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   useEffect(() => {
     if (imageIndex === null) {
       return;
     }
 
-    // start x and y
-    let x = Math.random() * window.innerWidth;
-    let y = Math.random() * window.innerHeight;
+    // starting x and y, update ref
+    posRef.current = {
+      x: Math.random() * window.innerWidth,
+      y: Math.random() * window.innerHeight,
+    };
 
     // x and y speeds
     let vx = 0.1 + Math.random();
@@ -48,6 +73,9 @@ export default function Fih() {
       }
 
       const rect = el.getBoundingClientRect();
+
+      // where are we???????????
+      let { x, y } = posRef.current;
 
       // advance positions
       x += vx;
@@ -64,6 +92,7 @@ export default function Fih() {
       }
 
       // update the position state
+      posRef.current = { x, y };
       setPosition({ x, y });
       requestAnimationFrame(animate);
     };

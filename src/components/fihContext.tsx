@@ -10,7 +10,7 @@ type FihContextType = {
 const fihContext = createContext<FihContextType | null>(null);
 
 export function FihProvider({ children }: { children: React.ReactNode }) {
-  const [count, setCount] = useState(3);
+  const [count, setCount] = useState(0);
 
   return (
     <fihContext.Provider value={{ count, setCount }}>

@@ -2,13 +2,13 @@
 
 export default function Resume() {
   return (
-    <div className="flex flex-col flex-1 items-center font-sans bg-linear-to-r from-slate-950 via-cyan-950 to-slate-950">
-      <main className="flex flex-1 w-full max-w-3xl flex-col py-32 px-16 bg-[#232143] dark:bg-[#232143] sm:items-start">
+    <div className="flex flex-col min-h-screen items-center justify-center font-sans bg-linear-to-r from-slate-950 via-cyan-950 to-slate-950">
+      <main className="w-full max-w-3xl flex flex-col py-32 px-6 sm:px-12 bg-[#232143]">
         <div className="flex flex-col items-center gap-6 sm:items-start sm:text-left">
           <h1 className="flex max-w-lg text-3xl font-semibold leading-10 tracking-tight text-[#f4ecd6] dark:text-[#f4ecd6] justify-center">
             Edith Hohner
           </h1>
-          <h2 className="flex max-w-xl font-style: italic text-md font-semibold leading-10 tracking-tight text-[#f4ecd6] dark:text-[#f4ecd6] justify-center">
+          <h2 className="flex max-w-x font-style: italic text-md font-semibold leading-10 tracking-tight text-[#f4ecd6] dark:text-[#f4ecd6] justify-center">
             Computer Science B.Sc. Honours, Mathematics Minor, Classical Studies
             Minor
           </h2>
