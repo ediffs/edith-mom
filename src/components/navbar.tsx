@@ -21,15 +21,15 @@ export default function Navbar() {
         edith&apos;s site!
       </Link>
 
-      {/* girlypop fih control */}
-      <div className="flex items-center gap-2 bg-indigo-950 px-4 py-2 rounded-lg">
+      {/* girlypop fih reset */}
+      <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-linear-to-br from-indigo-950 to-slate-900 shadow-md">
         <label htmlFor="numFih" className="text-sm md:text-xl text-[#ff99c9]">
           Fih:
         </label>
         <input
           type="range"
           inputMode="numeric"
-          className="w-32 sm:w-40 md:w-56 bg-transparent border border-[#ff99c9] rounded-md transition duration-300 ease focus:outline-none focus:border-cyan-400 hover:border-cyan-400"
+          className="w-32 sm:w-40 md:w-56 appearance-none bg-[#2e2a5a] border border-[#ff99c9] focus:outline-none hover:border-cyan-400"
           min="0"
           max="30"
           value={count}
@@ -43,7 +43,7 @@ export default function Navbar() {
           <li key={item.id}>
             <Link
               href={item.href}
-              className="text-sm md:text-lg hover:text-cyan-400 bg-indigo-950 py-2 px-3 md:px-4 rounded-lg transition-transform hover:scale-105"
+              className="text-sm md:text-lg hover:text-cyan-400 py-2 px-3 md:px-4 rounded-lg transition-transform hover:scale-105 bg-linear-to-br from-indigo-950 to-slate-900 shadow-md"
             >
               {item.label}
             </Link>

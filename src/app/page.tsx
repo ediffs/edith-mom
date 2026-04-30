@@ -21,22 +21,14 @@ export default function Home() {
           <h2 className="flex max-w-lg text-2xl font-semibold leading-10 tracking-tight text-[#f4ecd6] dark:text-[#f4ecd6] justify-center">
             A few things you may know me from:
           </h2>
-          <ul className="list-inside md:list-disc max-w-2xl text-lg leading-10 text-[#f4ecd6] dark:text-[#f4ecd6]">
+          <ul className="list-inside md:list-disc max-w-2xl text-lg leading-10 text-[#f4ecd6] dark:text-[#f4ecd6] bg-[#2e2a5a] rounded-xl p-6 shadow-md w-full">
             <li>
-              I've been a Teaching Assistant for the following courses: (COMP
-              1020 during Winter 2026, COMP 2450 during Summer 2026).
+              I've been a Teaching Assistant for COMP 1020 during Winter 2026
+              and COMP 2450 during Summer 2026.
             </li>
-            <li>
-              I am currently the CSSA's Director of Advocacy for the 2026-2027
-              year.
-            </li>
-            <li>
-              I was the CSSA's Director of Lounge Affairs for the 2025-2026
-              year.
-            </li>
-            <li>
-              I was a Mathematics Tutor for the SSA during the 2025-2026 year.
-            </li>
+            <li>I am currently the CSSA's Director of Advocacy.</li>
+            <li>I was previously the CSSA's Director of Lounge Affairs.</li>
+            <li>I was previously a Mathematics Tutor for the SSA.</li>
           </ul>
           <h2 className="flex max-w-lg text-2xl font-semibold leading-10 tracking-tight text-[#f4ecd6] dark:text-[#f4ecd6] justify-center">
             Contact:
@@ -44,23 +36,23 @@ export default function Home() {
           <div className="flex items-center gap-2">
             {" "}
             <Link
-              href="mailto:edith.hohner@umanitoba.ca"
+              href="mailto:contact@edith.mom"
               target="_blank"
-              className="transform scale-100 hover:scale-105 bg-indigo-950 hover:text-cyan-400 text-[#ff99c9] py-2 px-4 rounded-lg"
+              className="transform scale-100 hover:scale-105 hover:text-cyan-400 text-[#ff99c9] py-2 px-4 rounded-lg bg-linear-to-br from-indigo-950 to-slate-900 shadow-md"
             >
               Email
             </Link>
             <Link
               href="https://github.com/ediffs"
               target="_blank"
-              className="transform scale-100 hover:scale-105 bg-indigo-950 hover:text-cyan-400 text-[#ff99c9] py-2 px-4 rounded-lg"
+              className="transform scale-100 hover:scale-105 hover:text-cyan-400 text-[#ff99c9] py-2 px-4 rounded-lg bg-linear-to-br from-indigo-950 to-slate-900 shadow-md"
             >
               Github
             </Link>
             <Link
               href="https://linkedin.com/in/edith-hohner"
               target="_blank"
-              className="transform scale-100 hover:scale-105 bg-indigo-950 hover:text-cyan-400 text-[#ff99c9] py-2 px-4 rounded-lg"
+              className="transform scale-100 hover:scale-105 hover:text-cyan-400 text-[#ff99c9] py-2 px-4 rounded-lg bg-linear-to-br from-indigo-950 to-slate-900 shadow-md"
             >
               LinkedIn
             </Link>

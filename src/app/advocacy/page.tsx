@@ -10,8 +10,7 @@ export default function Advocacy() {
             Director of Advocacy
           </h1>
           <p className="max-w-md text-lg leading-8 text-[#f4ecd6] dark:text-[#f4ecd6]">
-            In case you're not aware I am the 2026-2027 Director of Advocacy for
-            the CSSA.
+            I am currently the 2026-2027 Director of Advocacy for the CSSA!
           </p>
           <p className="max-w-xl text-lg leading-10 text-[#f4ecd6] dark:text-[#f4ecd6]">
             One of my initiatives from when I was campaigning was to increase
