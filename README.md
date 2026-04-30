@@ -31,3 +31,5 @@ The main resources I used while creating this website were (in order of usefulne
 * [GeeksForGeeks](https://www.geeksforgeeks.org) - Useful for their React tutorials.
 * [React Quick Start](https://react.dev/learn) - A good way to familiarize yourself with React, although I'd recommend just building something as soon as you feel ready.
 * [Next.js Docs](https://nextjs.org/docs) - Not the best documentation but has what you might need for certain tasks.
+
+This site was deployed on Github Pages, with a domain managed by Porkbun.

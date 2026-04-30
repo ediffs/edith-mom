@@ -9,12 +9,12 @@ export default function Home() {
             About Me
           </h1>
           <p className="max-w-md text-lg leading-8 text-[#f4ecd6] dark:text-[#f4ecd6]">
-            Hi! My name is Edith (she/her) and I'm a Computer Science Honours
-            student with a minor in Mathematics, heading into my third year at
-            the University of Manitoba.
+            Hi! My name is Edith (she/her) and I&apos;m a Computer Science
+            Honours student with a minor in Mathematics, heading into my third
+            year at the University of Manitoba.
           </p>
           <p className="max-w-md text-lg leading-10 text-[#f4ecd6] dark:text-[#f4ecd6]">
-            I'm passionate about video game design, music, and effective
+            I&apos;m passionate about video game design, music, and effective
             political advocacy.
           </p>
           <p className="max-w-md text-lg leading-10 text-[#f4ecd6] dark:text-[#f4ecd6]"></p>
@@ -23,17 +23,19 @@ export default function Home() {
           </h2>
           <ul className="list-inside md:list-disc max-w-2xl text-lg leading-10 text-[#f4ecd6] dark:text-[#f4ecd6] bg-[#2e2a5a] rounded-xl p-6 shadow-md w-full">
             <li>
-              I've been a Teaching Assistant for COMP 1020 during Winter 2026
-              and COMP 2450 during Summer 2026.
+              I&apos;ve been a Teaching Assistant for COMP 1020 during Winter
+              2026 and COMP 2450 during Summer 2026.
             </li>
-            <li>I am currently the CSSA's Director of Advocacy.</li>
-            <li>I was previously the CSSA's Director of Lounge Affairs.</li>
+            <li>I am currently the CSSA&apos;s Director of Advocacy.</li>
+            <li>
+              I was previously the CSSA&apos;s Director of Lounge Affairs.
+            </li>
             <li>I was previously a Mathematics Tutor for the SSA.</li>
           </ul>
           <h2 className="flex max-w-lg text-2xl font-semibold leading-10 tracking-tight text-[#f4ecd6] dark:text-[#f4ecd6] justify-center">
             Contact:
           </h2>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2  bg-[#2e2a5a] rounded-xl p-6 shadow-md">
             {" "}
             <Link
               href="mailto:contact@edith.mom"

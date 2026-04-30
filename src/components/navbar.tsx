@@ -22,7 +22,7 @@ export default function Navbar() {
       </Link>
 
       {/* girlypop fih reset */}
-      <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-linear-to-br from-indigo-950 to-slate-900 shadow-md">
+      <div className="flex md:justify-end items-center gap-2 px-4 py-2 rounded-lg bg-linear-to-br from-indigo-950 to-slate-900 shadow-md">
         <label htmlFor="numFih" className="text-sm md:text-xl text-[#ff99c9]">
           Fih:
         </label>
@@ -37,7 +37,6 @@ export default function Navbar() {
           id="numFih"
         />
       </div>
-
       <ul className="flex justify-center md:justify-end items-center gap-4 md:gap-8 text-[#ff99c9]">
         {items.map((item) => (
           <li key={item.id}>

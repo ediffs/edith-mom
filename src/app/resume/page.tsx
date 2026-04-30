@@ -61,7 +61,8 @@ export default function Resume() {
           <div className="flex flex-col gap-6 w-full">
             <div className="bg-[#2e2a5a] rounded-xl p-6 shadow-md w-full">
               <h3 className="text-xl font-semibold text-[#f4ecd6]">
-                Director of Advocacy — UM Computer Science Students' Association
+                Director of Advocacy — UM Computer Science Students&apos;
+                Association
               </h3>
               <p className="text-sm text-gray-300 mt-1">
                 April 2026 – April 2027
@@ -79,7 +80,7 @@ export default function Resume() {
           <div className="flex flex-col gap-6 w-full">
             <div className="bg-[#2e2a5a] rounded-xl p-6 shadow-md w-full">
               <h3 className="text-xl font-semibold text-[#f4ecd6]">
-                Director of Lounge Affairs — UM Computer Science Students'
+                Director of Lounge Affairs — UM Computer Science Students&apos;
                 Association
               </h3>
               <p className="text-sm text-gray-300 mt-1">

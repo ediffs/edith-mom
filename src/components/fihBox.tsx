@@ -1,9 +1,8 @@
 "use client";
-
 import { useFihCount } from "./fihContext";
 import Fih from "@/components/fih";
 
-export default function fihBox() {
+export default function FihBox() {
   const { count } = useFihCount();
 
   // fixed = follows screen, z-50 = overlap everything

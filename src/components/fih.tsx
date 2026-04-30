@@ -18,11 +18,11 @@ export default function Fih() {
   // state to store fih position, trigger re-render
   const [position, setPosition] = useState({ x: -100, y: 0 });
 
-  // state to store image decision
-  const [imageIndex, setImageIndex] = useState<number | null>(null);
-
   // state to track horizontal flipping
   const [flip, setFlip] = useState(false);
+
+  // state to store image decision
+  const [imageIndex, setImageIndex] = useState<number | null>(null);
 
   // set image index
   useEffect(() => {
@@ -114,8 +114,8 @@ export default function Fih() {
         transform: `translate(${position.x}px, ${position.y}px)`, // use position state here
       }}
     >
+      {/* FIXME: image optimization bad */}
       <Image
-        className=""
         src={images[imageIndex]}
         alt="A fish."
         width={50}
