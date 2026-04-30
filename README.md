@@ -31,5 +31,3 @@ The main resources I used while creating this website were (in order of usefulne
 * [GeeksForGeeks](https://www.geeksforgeeks.org) - Useful for their React tutorials.
 * [React Quick Start](https://react.dev/learn) - A good way to familiarize yourself with React, although I'd recommend just building something as soon as you feel ready.
 * [Next.js Docs](https://nextjs.org/docs) - Not the best documentation but has what you might need for certain tasks.
-
-Deployed using the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).

@@ -10,6 +10,7 @@ const images = [
   "/schwarzenarzisse-fih-0.png",
 ];
 
+// FIXME: fih stuck wall :(
 export default function Fih() {
   const ref = useRef<HTMLDivElement>(null);
   const posRef = useRef({ x: 0, y: 0 });

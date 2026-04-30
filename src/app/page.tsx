@@ -46,21 +46,21 @@ export default function Home() {
             <Link
               href="mailto:edith.hohner@umanitoba.ca"
               target="_blank"
-              className="transform scale-100 hover:scale-105 bg-indigo-950 hover:text-cyan-400 text-[#ff99c9] py-2 px-4 rounded"
+              className="transform scale-100 hover:scale-105 bg-indigo-950 hover:text-cyan-400 text-[#ff99c9] py-2 px-4 rounded-lg"
             >
               Email
             </Link>
             <Link
               href="https://github.com/ediffs"
               target="_blank"
-              className="transform scale-100 hover:scale-105 bg-indigo-950 hover:text-cyan-400 text-[#ff99c9] py-2 px-4 rounded"
+              className="transform scale-100 hover:scale-105 bg-indigo-950 hover:text-cyan-400 text-[#ff99c9] py-2 px-4 rounded-lg"
             >
               Github
             </Link>
             <Link
               href="https://linkedin.com/in/edith-hohner"
               target="_blank"
-              className="transform scale-100 hover:scale-105 bg-indigo-950 hover:text-cyan-400 text-[#ff99c9] py-2 px-4 rounded"
+              className="transform scale-100 hover:scale-105 bg-indigo-950 hover:text-cyan-400 text-[#ff99c9] py-2 px-4 rounded-lg"
             >
               LinkedIn
             </Link>

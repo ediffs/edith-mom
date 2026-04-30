@@ -11,17 +11,18 @@ const items = [
 export default function Navbar() {
   const { count, setCount } = useFihCount();
 
+  // FIXME: make it so that on mobile the fih slider is somewhere more sexually accessible
   return (
     <nav className="fixed top-0 left-0 w-full bg-[#2d2643] flex flex-col md:flex-row md:items-center md:justify-between px-4 py-2 gap-3">
       <Link
         href="/"
         className="text-lg md:text-3xl font-bold text-[#ff99c9] hover:text-cyan-400"
       >
-        edith's site!
+        edith&apos;s site!
       </Link>
 
-      {/* fih control */}
-      <div className="flex items-center gap-2">
+      {/* girlypop fih control */}
+      <div className="flex items-center gap-2 bg-indigo-950 px-4 py-2 rounded-lg">
         <label htmlFor="numFih" className="text-sm md:text-xl text-[#ff99c9]">
           Fih:
         </label>
@@ -42,7 +43,7 @@ export default function Navbar() {
           <li key={item.id}>
             <Link
               href={item.href}
-              className="text-sm md:text-lg hover:text-cyan-400 bg-indigo-950 py-2 px-3 md:px-4 rounded transition-transform hover:scale-105"
+              className="text-sm md:text-lg hover:text-cyan-400 bg-indigo-950 py-2 px-3 md:px-4 rounded-lg transition-transform hover:scale-105"
             >
               {item.label}
             </Link>
