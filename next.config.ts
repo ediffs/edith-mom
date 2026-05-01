@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  // basePath: "/edith-mom", // not necessary ???
+  basePath: "/edith-mom",
   images: {
     unoptimized: true,
   },
